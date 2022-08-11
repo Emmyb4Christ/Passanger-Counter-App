@@ -15,6 +15,7 @@ function increment() {
   countEl.textContent = count;
 }
 
+//Save button function
 function save() {
   let countStr = count + " - ";
   saveEl.textContent += " " + countStr;
